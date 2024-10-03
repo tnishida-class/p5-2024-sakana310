@@ -5,12 +5,12 @@ function setup() {
 function draw() {
   background(0);
   strokeWeight(4);
-  fill(178, 100, 162);
-  triangle(12,120,116,120,116,10);
+  fill(10, 200, 162);
+  triangle(12,12,116,220,116,10);
   fill(94, 185, 84);
   triangle(0,108,106,108,106,0);
   fill(255);
   textSize(32);
   textFont("serif");
-  text("46", 68, 100);
+  text("★", 68, 100);
 }
