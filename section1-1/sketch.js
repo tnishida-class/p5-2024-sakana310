@@ -12,5 +12,5 @@ function draw() {
   fill(105);
   textSize(32);
   textFont("serif");
-  text("★", 68, 100);
+  text("💛", 68, 100);
 }
