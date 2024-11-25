@@ -50,7 +50,7 @@ if(keyIsDown("4".charCodeAt(0))){
   background(255, 255, 128);
 
 }if(keyIsDown("8".charCodeAt(0))){ 
-background(255, 255, 255);
+siro()
 
 
 } if(keyIsDown("9".charCodeAt(0))){ 
@@ -58,21 +58,18 @@ background(255,192,0);
 p=200
 
 }if(keyIsDown("A".charCodeAt(0))){ 
-  background(255, 255, 255);
+  siro()
   L=20
 }if(keyIsDown("Z".charCodeAt(0))){ 
-  background(255, 255, 255);
+  siro()
   O=(12)
 }
 
 
 if(keyIsDown("0".charCodeAt(0))){ 
-    background(10, 10, 80);
-    f=10
-    p=50
-    L=10
-    O=0
-  
+    shyokika()
+
+    
   }
 
 
@@ -146,6 +143,19 @@ if (b.x > n && b.x < 850 && b.y > m-200 && b.y < 1000) {
 balls.push(b);
 
   }
+}
+
+function shyokika(){
+  background(10, 10, 80);
+  f=10
+  p=50
+  L=10
+  O=0
+}
+
+
+function siro(){
+  background(255, 255, 255);
 }
 
 function mouseDragged(){
